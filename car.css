@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    color: #111;
+    background: #fff;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #000;
+  }
+  .contact p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .hero {
+    background: #FFFFFF;
+    padding: 60px 0;
+  }
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero-text h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .hero-text p {
+    margin-bottom: 20px;
+  }
+  .hero-img img {
+    max-width: 400px;
+  }
+  .btn {
+    padding: 12px 24px;
+    background: #e4002b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .info {
+    width: 100vw;
+    background:#F4F6F8 ;
+    text-align: center;
+    padding: 40px 0;
+  }
+  .center-text h2 {
+    margin-bottom: 10px;
+  }
+  .services {
+    display: flex;
+    justify-content: space-between;
+    
+    background:#F4F6F8 ;
+  }
+  .service-card {
+    background: #fff;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .teampic{
+    width: 500px;
+    height: 400px;
+  }
+  .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+  }
+  .about-text {
+    max-width: 50%;
+  }
+  .about-text ul {
+    margin: 20px 0;
+    list-style: disc inside;
+  }
+  
